@@ -6,6 +6,6 @@ import javax.inject.Named;
 public class Car {
 
     public double getFuelQuantity(){
-        return Double.MIN_VALUE;
+        return Math.random();
     }
 }

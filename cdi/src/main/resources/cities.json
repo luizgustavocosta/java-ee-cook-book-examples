@@ -1,0 +1,21 @@
+[
+  {
+    "id":"1",
+    "name":"Sabadell",
+    "state":"Barcelona",
+    "region" : "Catalunya"
+  },
+  {
+    "id":"2",
+    "name":"Sant Cugat del Vallés",
+    "state":"Barcelona",
+    "region" : "Catalunya"
+  },
+  {
+    "id":"3",
+    "name":"Barcelona",
+    "state":"Barcelona",
+    "region" : "Catalunya"
+  }
+
+]
