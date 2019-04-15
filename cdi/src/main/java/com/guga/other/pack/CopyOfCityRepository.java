@@ -1,18 +1,19 @@
-package com.guga.ee;
+package com.guga.other.pack;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.guga.ee.City;
+import com.guga.ee.CityRepository;
 
-import javax.inject.Named;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
-public class CityRepository {
+public class CopyOfCityRepository {
     private static final String CITIES_FILE = "/cities.json";
     private static final List<City> cities;
 
@@ -25,10 +26,8 @@ public class CityRepository {
         }
     }
 
-    City findOneRandom() {
+    public City findOneRandom() {
         Collections.shuffle(cities);
         return cities.stream().findFirst().orElse(null);
     }
 }
-
-

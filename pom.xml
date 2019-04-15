@@ -10,6 +10,7 @@
     <modules>
         <module>bean-validation</module>
         <module>cdi</module>
+        <module>jax-rs</module>
     </modules>
     <dependencies>
         <dependency>
