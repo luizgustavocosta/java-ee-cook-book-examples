@@ -11,6 +11,7 @@
         <module>bean-validation</module>
         <module>cdi</module>
         <module>jax-rs</module>
+        <module>jsf</module>
     </modules>
     <dependencies>
         <dependency>
@@ -30,6 +31,12 @@
             <artifactId>assertj-core</artifactId>
             <version>3.11.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>8.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <dependencyManagement>
