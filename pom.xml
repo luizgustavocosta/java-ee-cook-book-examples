@@ -13,6 +13,8 @@
         <module>jax-rs</module>
         <module>jsf</module>
         <module>web-socket</module>
+        <module>security</module>
+        <module>json-p</module>
     </modules>
     <dependencies>
         <dependency>
