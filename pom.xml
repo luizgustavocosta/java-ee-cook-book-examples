@@ -12,6 +12,7 @@
         <module>cdi</module>
         <module>jax-rs</module>
         <module>jsf</module>
+        <module>web-socket</module>
     </modules>
     <dependencies>
         <dependency>
