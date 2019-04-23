@@ -16,6 +16,7 @@
         <module>security</module>
         <module>json-p</module>
         <module>json-b</module>
+        <module>servlet</module>
     </modules>
     <dependencies>
         <dependency>
