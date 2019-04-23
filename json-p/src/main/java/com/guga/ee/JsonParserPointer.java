@@ -3,7 +3,6 @@ package com.guga.ee;
 import javax.json.*;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class JsonParserPointer {
@@ -24,7 +23,7 @@ public class JsonParserPointer {
             LOGGER.info(() -> "From User "+ jsonValueUser);
 
         } catch (IOException e) {
-            LOGGER.info(() -> e.getMessage());
+            LOGGER.info(e::getMessage);
         }
 
     }

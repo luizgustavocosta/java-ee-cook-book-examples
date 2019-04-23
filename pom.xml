@@ -15,6 +15,7 @@
         <module>web-socket</module>
         <module>security</module>
         <module>json-p</module>
+        <module>json-b</module>
     </modules>
     <dependencies>
         <dependency>
