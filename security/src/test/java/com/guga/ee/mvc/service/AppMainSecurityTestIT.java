@@ -1,4 +1,4 @@
-package com.guga.ee.service;
+package com.guga.ee.mvc.service;
 
 import com.guga.ee.entity.User;
 import org.assertj.core.api.WithAssertions;

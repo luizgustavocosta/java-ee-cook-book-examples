@@ -1,4 +1,4 @@
-package com.guga.ee.service;
+package com.guga.ee.mvc.service;
 
 import javax.annotation.security.RunAs;
 import javax.ejb.Stateless;

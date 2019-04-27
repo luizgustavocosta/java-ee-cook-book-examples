@@ -1,4 +1,4 @@
-package com.guga.ee.controller;
+package com.guga.ee.mvc.controller;
 
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;

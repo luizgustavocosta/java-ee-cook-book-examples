@@ -17,6 +17,7 @@
         <module>json-p</module>
         <module>json-b</module>
         <module>servlet</module>
+        <module>mvc</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

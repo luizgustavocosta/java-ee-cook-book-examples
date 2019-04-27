@@ -1,4 +1,4 @@
-package com.guga.ee.controller;
+package com.guga.ee.mvc.controller;
 
 
 import javax.servlet.annotation.WebServlet;

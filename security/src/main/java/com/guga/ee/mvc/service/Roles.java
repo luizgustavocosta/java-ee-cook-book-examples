@@ -1,4 +1,4 @@
-package com.guga.ee.service;
+package com.guga.ee.mvc.service;
 
 public class Roles {
     public static final String ADMIN = "ADMIN";

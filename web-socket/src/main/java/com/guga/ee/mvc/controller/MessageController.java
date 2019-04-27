@@ -1,4 +1,4 @@
-package com.guga.ee.controller;
+package com.guga.ee.mvc.controller;
 
 import com.guga.ee.message.MyResponse;
 import com.guga.ee.message.MyRequest;
