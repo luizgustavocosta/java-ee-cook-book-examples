@@ -30,7 +30,7 @@
         </dependency>
     </dependencies>-->
     <properties>
-        <tomcat.version>8.5.40</tomcat.version>
+        <tomcat.version>10.0.4</tomcat.version>
     </properties>
     <dependencies>
         <dependency>
